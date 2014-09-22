@@ -1,0 +1,14 @@
+plugin.tx_feedreader {
+    view {
+        templateRootPath = {$plugin.tx_feedreader.view.templateRootPath}
+        partialRootPath = {$plugin.tx_feedreader.view.partialRootPath}
+        layoutRootPath = {$plugin.tx_feedreader.view.layoutRootPath}
+    }
+    persistence {
+        storagePid = {$plugin.tx_feedreader.persistence.storagePid}
+    }
+    feed {
+        url = {$plugin.tx_feedreader.feed.url}
+        importFolderID = {$plugin.tx_feedreader.feed.importFolderID}
+    }
+}

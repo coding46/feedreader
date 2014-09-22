@@ -1,0 +1,17 @@
+plugin.tx_feedreader {
+    view {
+        # cat=plugin.tx_feedreader/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:feedreader/Resources/Private/Templates/
+        # cat=plugin.tx_feedreader/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:feedreader/Resources/Private/Partials/
+        # cat=plugin.tx_feedreader/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:feedreader/Resources/Private/Layouts/
+    }
+    persistence {
+        storagePid =
+    }
+    feed {
+        # cat=plugin.tx_feedreader/a; type=string; label=Import News To SysFolder ID
+        importFolderID =
+    }
+}
